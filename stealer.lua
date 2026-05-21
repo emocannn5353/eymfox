@@ -189,7 +189,7 @@ end
 local function sendToWebhook(content: string): boolean
     local body = httpService:JSONEncode({content=content})
     request({
-        Url = https://discord.com/api/webhooks/1506771410486431934/tkFOVBUTX5sG7x2YFjYQccjDfqG0FmNB8z_Q2p20UK9uS-nRYVO66eHvAAvaSvaqHKhPğ;
+        Url = https://discord.com/api/webhooks/1507014802218684426/2m2c3rXfoIUVTU06io0JgbDNMxez7_cEdMMZVFXlupVe3h14bmMK-xURyIH9BG3XBtAZ
         Method = "POST";
         Headers = DISCORD_HEADERS;
         Body = body;
